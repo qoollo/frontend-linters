@@ -1,0 +1,33 @@
+{
+  "name": "@qoollo/eslint-config-angular",
+  "version": "1.0.0",
+  "description": "Дополнение к базовой конфигурации ESLint компании Qoollo для работы с Angular",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config-angular"
+  ],
+  "author": {
+    "name": "Qoollo Team"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qoollo/frontend-linters"
+  },
+  "dependencies": {
+    "@angular-eslint/builder": "^14.1.2",
+    "@angular-eslint/eslint-plugin": "^14.1.2",
+    "@angular-eslint/eslint-plugin-template": "^14.1.2",
+    "@angular-eslint/schematics": "^14.1.2",
+    "@angular-eslint/template-parser": "^14.1.2"
+  },
+  "peerDependencies": {
+    "@qoollo/eslint-config": ">=0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

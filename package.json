@@ -1,0 +1,15 @@
+{
+  "name": "@qoollo/linters",
+  "version": "1.0.0",
+  "description": "Qoollo linters",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "linters"
+  ],
+  "author": {
+    "name": "Qoollo Team"
+  },
+  "root": true,
+  "license": "ISC"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@qoollo/eslint-config",
+  "version": "1.0.0",
+  "description": "Конфигурация ESLint компании Qoollo",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qoollo/frontend-linterss"
+  },
+  "author": {
+    "name": "Qoollo Team"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.6.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "eslint-plugin-unicorn": "^43.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
