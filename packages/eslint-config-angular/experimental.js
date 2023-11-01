@@ -23,11 +23,21 @@ module.exports = {
             "allowBindToStyle": true,
           },
         ],
+        "@angular-eslint/template/prefer-self-closing-tags": [
+          "error",
+        ],
+        "@angular-eslint/template/prefer-ngsrc": [
+          "error",
+        ],
       },
     },
     {
       files: ["*.ts", "*.tsx", "*.js", "*.jsx"],
-      rules: {},
+      rules: {
+        "@angular-eslint/sort-lifecycle-methods": [
+          "error",
+        ],
+      },
     },
   ],
 }
