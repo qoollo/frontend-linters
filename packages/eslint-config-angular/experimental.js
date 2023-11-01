@@ -4,13 +4,14 @@ module.exports = {
   overrides: [
     {
       files: ["*.component.html"],
-      extends: ["plugin:@angular-eslint/template/base"],
+      parser: "@angular-eslint/template-parser",
+      plugins: ["@angular-eslint/template"],
       rules: {
-        "@angular-eslint/template/accessibility-interactive-supports-focus": [
-          "error"
+        "@angular-eslint/template/interactive-supports-focus": [
+          "error",
         ],
-        "@angular-eslint/template/accessibility-role-has-required-aria": [
-          "error"
+        "@angular-eslint/template/role-has-required-aria": [
+          "error",
         ],
         "@angular-eslint/template/attributes-order": [
           "error",
@@ -19,14 +20,24 @@ module.exports = {
           "error",
           {
             "allowNgStyle": true,
-            "allowBindToStyle": true
+            "allowBindToStyle": true,
           },
+        ],
+        "@angular-eslint/template/prefer-self-closing-tags": [
+          "error",
+        ],
+        "@angular-eslint/template/prefer-ngsrc": [
+          "error",
         ],
       },
     },
     {
       files: ["*.ts", "*.tsx", "*.js", "*.jsx"],
-      rules: {},
+      rules: {
+        "@angular-eslint/sort-lifecycle-methods": [
+          "error",
+        ],
+      },
     },
   ],
 }
