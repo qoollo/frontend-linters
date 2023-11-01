@@ -1,6 +1,6 @@
 {
   "name": "@qoollo/eslint-config-angular",
-  "version": "1.0.0",
+  "version": "14.0.0",
   "description": "Дополнение к базовой конфигурации ESLint компании Qoollo для работы с Angular",
   "main": "index.js",
   "scripts": {},
