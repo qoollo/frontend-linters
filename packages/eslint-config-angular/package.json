@@ -1,6 +1,6 @@
 {
   "name": "@qoollo/eslint-config-angular",
-  "version": "15.0.0",
+  "version": "16.0.0",
   "description": "Дополнение к базовой конфигурации ESLint компании Qoollo для работы с Angular",
   "main": "index.js",
   "scripts": {},
@@ -18,11 +18,11 @@
     "url": "https://github.com/qoollo/frontend-linters"
   },
   "dependencies": {
-    "@angular-eslint/builder": "^15.2.1",
-    "@angular-eslint/eslint-plugin": "^15.2.1",
-    "@angular-eslint/eslint-plugin-template": "^15.2.1",
-    "@angular-eslint/schematics": "^15.2.1",
-    "@angular-eslint/template-parser": "^15.2.1"
+    "@angular-eslint/builder": "^16.2.0",
+    "@angular-eslint/eslint-plugin": "^16.2.0",
+    "@angular-eslint/eslint-plugin-template": "^16.2.0",
+    "@angular-eslint/schematics": "^16.2.0",
+    "@angular-eslint/template-parser": "^16.2.0"
   },
   "peerDependencies": {
     "@qoollo/eslint-config": ">=0"
