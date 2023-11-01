@@ -55,6 +55,7 @@ module.exports = {
         "@angular-eslint/template/no-duplicate-attributes": "error",
         "@angular-eslint/template/no-negated-async": "error",
         "@angular-eslint/template/use-track-by-function": "error",
+        "@angular-eslint/template/no-interpolation-in-attributes": "error",
       },
     },
     {
