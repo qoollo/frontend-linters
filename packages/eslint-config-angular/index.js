@@ -4,7 +4,8 @@ module.exports = {
   overrides: [
     {
       files: ["*.component.html"],
-      extends: ["plugin:@angular-eslint/template/base"],
+      parser: "@angular-eslint/template-parser",
+      plugins: ["@angular-eslint/template"],
       rules: {
         "new-cap": [
           "error",
@@ -30,8 +31,8 @@ module.exports = {
           },
         ],
         "spaced-comment": "off",
-        "@angular-eslint/template/accessibility-alt-text": "error",
-        "@angular-eslint/template/accessibility-label-has-associated-control":
+        "@angular-eslint/template/alt-text": "error",
+        "@angular-eslint/template/label-has-associated-control":
           "error",
         "@angular-eslint/template/banana-in-box": "error",
         "@angular-eslint/template/click-events-have-key-events": "error",
